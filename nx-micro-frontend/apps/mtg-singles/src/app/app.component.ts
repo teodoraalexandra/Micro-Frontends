@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mtg-singles';
-
   list = [
     {
       title: 'Force of Will',

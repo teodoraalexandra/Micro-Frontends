@@ -1,5 +1,8 @@
-const { getJestProjects } = require('@nrwl/jest');
-
 module.exports = {
-  projects: getJestProjects(),
+  projects: [
+    '<rootDir>/apps/shell',
+    '<rootDir>/apps/menu',
+    '<rootDir>/apps/mtg-singles',
+    '<rootDir>/apps/mtg-boosters',
+  ],
 };

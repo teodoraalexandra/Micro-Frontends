@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    //RouterModule.forRoot([], { initialNavigation: 'enabled' }),
     RouterModule.forChild([
       {
         path: '',
