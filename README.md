@@ -13,7 +13,7 @@ Create the microfrontend:
 **nx generate @nrwl/angular:app menu** (routing TRUE)
 
 Setup Module Federation:
-**ng add @angular-architects/module-federation --project msg-example --port 4200**
+**ng add @angular-architects/module-federation --project shell --port 4200**
 **ng add @angular-architects/module-federation --project menu --port 4201**
 
 This command adds module-federation lib and creates the webpack config file to setup remotes or hosts.
